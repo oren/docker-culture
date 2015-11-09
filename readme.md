@@ -1,4 +1,4 @@
-# Docker Crash Course
+# Docker and Culture - Presentation
 
 Presentation at [Full Stack Toronto](http://eventmobi.com/fstoconf15/agenda/118605/614031)
 
