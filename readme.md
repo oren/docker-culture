@@ -75,8 +75,14 @@ open [http://localhost:3000](http://localhost:3000)
 
 ## Push this presentation to Dockerhub
 
-    bin/push
+    git push
 
-## Deploy with Deis
+## Deploy with Convox
 
     bin/deploy
+
+## TODO
+
+neo demo
+convox demo
+cayley demo
