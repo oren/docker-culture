@@ -80,9 +80,3 @@ open [http://localhost](http://localhost)
 ## Deploy with Convox
 
     convox deploy
-
-## TODO
-
-convox demo
-neo demo
-cayley demo
