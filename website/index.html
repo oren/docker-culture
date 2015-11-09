@@ -7,14 +7,11 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<!-- <link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css"> -->
 	<link rel="stylesheet" href="shower/themes/bright/styles/screen.css">
+	<link rel="stylesheet" href="app.css">
 </head>
+
 <body class="list">
-	<header class="caption"></header>
-		<style>
-			.slide:after {
-        display:none;
-      }
-		</style>
+
 	<section class="slide cover" id="Cover">
     <div>
       <img src="pictures/intro.png" alt="">
@@ -54,8 +51,7 @@
     <div>
       <h2>Agenda</h2>
       <ol>
-        <li>How is docker related to culture?</li>
-        <li>Crash course of Lean</li>
+        <li>Crash course on Lean</li>
         <li>Docker</li>
         <li>Graph Databases</li>
         <li>Function as a service</li>
@@ -67,39 +63,7 @@
     <div>
       <h2>Agenda</h2>
       <ol>
-        <li><mark>How is docker related to culture?</mark></li>
-        <li>Crash course of Lean</li>
-        <li>Docker</li>
-        <li>Graph Databases</li>
-        <li>Function as a service</li>
-      </ol>
-    </div>
-  </section>
-
-	<section class="slide" id="culture">
-    <div>
-      <h2>"Culture Eats strategy for breakfast, Operational excellence for lunch and everything else for dinner."</h2>
-    </div>
-		<style>
-			#culture h2 {
-				font-size:80px;
-        /* font-weight: bold; */
-      }
-		</style>
-  </section>
-
-	<section class="slide cover">
-    <div>
-      <img src="pictures/culture.png" alt="">
-    </div>
-  </section>
-
-	<section class="slide">
-    <div>
-      <h2>Agenda</h2>
-      <ol>
-        <li>How is docker related to culture?</li>
-        <li><mark>Crash course of Lean</mark></li>
+        <li><mark>Crash course on Lean</mark></li>
         <li>Docker</li>
         <li>Graph Databases</li>
         <li>Function as a service</li>
@@ -112,12 +76,43 @@
     <img src="pictures/book2.jpg" alt="" style="position: absolute; left: 200px; bottom: 150px;">
   </section>
 
+	<section class="slide cover">
+    <div>
+      <img src="pictures/culture.png" alt="">
+    </div>
+  </section>
+
+	<section class="slide">
+    <div>
+      <h2>Many decisions impact velocity</h2>
+      <ul>
+        <li>Team structures - Devs, Designers, R&D</li>
+        <li>Static vs dynamic vs hybrid in programming language</li>
+        <li>Node.js vs java/ruby/php/python</li>
+        <li>Relational vs graph dbs</li>
+        <li>UI (cohesiveness)</li>
+        <li>Devops</li>
+      </ul>
+    </div>
+  </section>
+
+	<section class="slide">
+    <div>
+      <h2>Decision making should be inside the team, as much as possible</h2>
+      Thoughtworks study at a large Australian telco:
+      <ul>
+        <li>Feature that leaves the team - wait days: 8. cycle: 23 days</li>
+        <li>Feature that is resovled in the team - wait days: 0. cycle: 2 days</li>
+      </ul>
+    </div>
+  </section>
+
+
 	<section class="slide">
     <div>
       <h2>Agenda</h2>
       <ol>
-        <li>How is docker related to culture?</li>
-        <li>Crash course of Lean</li>
+        <li>Crash course on Lean</li>
         <li><mark>Docker</mark></li>
         <li>Graph Databases</li>
         <li>Function as a service</li>
@@ -129,8 +124,7 @@
     <div>
       <h2>Agenda</h2>
       <ol>
-        <li>How is docker related to culture?</li>
-        <li>Crash course of Lean</li>
+        <li>Crash course on Lean</li>
         <li><mark>Docker</mark></li>
           <ul>
             <li>What pain does Docker is trying to solve?</li>
@@ -148,8 +142,7 @@
     <div>
       <h2>Agenda</h2>
       <ol>
-        <li>How is docker related to culture?</li>
-        <li>Crash course of Lean</li>
+        <li>Crash course on Lean</li>
         <li>Docker</li>
           <ul>
             <li><mark>What pain does Docker is trying to solve?</mark></li>
@@ -240,8 +233,9 @@
           text-align: center;
         }
         #amazon h2 {
-          margin-top: 30px;
+          margin-top: 450px;
           font-weight: bold;
+          color: white;
         }
         #amazon .swag {
           z-index: 1;
@@ -254,8 +248,7 @@
     <div>
       <h2>Agenda</h2>
       <ol>
-        <li>How is docker related to culture?</li>
-        <li>Crash course of Lean</li>
+        <li>Crash course on Lean</li>
         <li>Docker</li>
           <ul>
             <li>What pain does Docker is trying to solve?</li>
@@ -374,19 +367,11 @@
     </div>
   </section>
 
-	<section class="slide cover">
-    <div>
-      <img src="pictures/echosystem.png" alt="">
-    </div>
-  </section>
-
-
 	<section class="slide">
     <div>
       <h2>Agenda</h2>
       <ol>
-        <li>How is docker related to culture?</li>
-        <li>Crash course of Lean</li>
+        <li>Crash course on Lean</li>
         <li>Docker</li>
           <ul>
             <li>What pain does Docker is trying to solve?</li>
@@ -400,8 +385,16 @@
     </div>
   </section>
 
-	<section class="slide cover">
-      <img src="pictures/yak-shaving.jpg" alt="">
+	<section class="slide">
+    <div>
+      <h2>Examples (Demo time!)</h2>
+       <ul>
+         <li>Node.js project with multiple dependencies</li>
+         <li>Cordova/Android</li>
+         <li>research.sanguinebio.com</li>
+         <li>Wikis</li>
+       </ul>
+    </div>
   </section>
 
 	<section class="slide cover">
@@ -410,28 +403,11 @@
     </div>
   </section>
 
-	<section class="slide cover">
-    <div>
-      <img src="pictures/consul.png" alt="">
-    </div>
-  </section>
-
-	<section class="slide">
-    <div>
-      <h2>Examples (Demo time!)</h2>
-       <ul>
-         <li>Node.js project with multiple dependencies</li>
-         <li>Cordova/Android</li>
-       </ul>
-    </div>
-  </section>
-
 	<section class="slide">
     <div>
       <h2>Agenda</h2>
       <ol>
-        <li>How is docker related to culture?</li>
-        <li>Crash course of Lean</li>
+        <li>Crash course on Lean</li>
         <li>Docker</li>
           <ul>
             <li>What pain does Docker is trying to solve?</li>
@@ -462,12 +438,25 @@
     </div>
   </section>
 
+	<section class="slide cover">
+    <div>
+      <img src="pictures/discovery.png" alt="">
+    </div>
+  </section>
+
+	<section class="slide cover">
+    <div>
+      <img src="pictures/consul.png" alt="">
+    </div>
+  </section>
+
 	<section class="slide">
     <div>
       <ul>
-        <li><mark class="important">Discovery tools:</mark> etcd, consul, zookeeper</li>
-        <li><mark class="important">Schedulers:</mark> Fleet, marathon, Docker swarm, mesos</li>
         <li><mark class="important">Workflow tools:</mark> Deis, Convox, Otto, kubernetes</li>
+        <li><mark class="important">Schedulers:</mark> Fleet, Marathon, Docker swarm, Mesos</li>
+        <li><mark class="important">Discovery tools:</mark> etcd, Consul, Zookeeper</li>
+        <li><mark class="important">Container Engines:</mark> Docker, Rocket, OSv</li>
       </ul>
     </div>
   </section>
@@ -520,10 +509,15 @@
 
 	<section class="slide">
     <div>
+      <h2 style="font-size: 80px;">Convox Demo</h2>
+    </div>
+  </section>
+
+	<section class="slide">
+    <div>
       <h2>Agenda</h2>
       <ol>
-        <li>How is docker related to culture?</li>
-        <li>Crash course of Lean</li>
+        <li>Crash course on Lean</li>
         <li>Docker</li>
         <li><mark>Graph Databases</mark></li>
         <li>Function as a service</li>
@@ -532,35 +526,54 @@
   </section>
 
 	<section class="slide">
+    <img src="pictures/graph-dbs.png" alt="">
+  </section>
+
+	<section class="slide">
     <img src="pictures/ttfhw.png" alt="" style="position: absolute; top: 0px; left: 100px;">
   </section>
 
 	<section class="slide">
-    <img src="pictures/justin.jpg" alt="" style="position: absolute; top: 150px;">
+    <img src="pictures/justin.jpg" alt="" style="display: block; margin: 87.5px auto;">
   </section>
 
 	<section class="slide">
-    <img src="pictures/tweet.png" alt="" style="position: absolute; top: 150px;">
+    <img src="pictures/tweet.png" alt="" style="display: block; margin: 116.5px auto;">
   </section>
 
 	<section class="slide">
-    <img src="pictures/tweet2.png" alt="" style="position: absolute; top: 150px;">
+    <img src="pictures/tweet2.png" alt="" style="display: block; margin: 179.5px auto;">
   </section>
 
 	<section class="slide">
-    <img src="pictures/tweet-bluejays.png" alt="" style="position: absolute; top: 150px;">
+    <img src="pictures/tweet-bluejays.png" alt="" style="display: block; margin: 86px auto;">
   </section>
 
 	<section class="slide">
-    <img src="pictures/tweet-puppies.png" alt="" style="position: absolute; top: 150px;">
+    <img src="pictures/tweet-puppies.png" alt="" style="display: block; margin: 19px auto;">
+  </section>
+
+	<section class="slide">
+    <div>
+      <h2 style="font-size: 80px;">Neo4j Demo</h2>
+    </div>
+  </section>
+
+	<section class="slide">
+    <img src="pictures/neo.png" alt="">
+  </section>
+
+	<section class="slide">
+    <div>
+      <h2 style="font-size: 80px;">Cayley Demo</h2>
+    </div>
   </section>
 
 	<section class="slide">
     <div>
       <h2>Agenda</h2>
       <ol>
-        <li>How is docker related to culture?</li>
-        <li>Crash course of Lean</li>
+        <li>Crash course on Lean</li>
         <li>Docker</li>
         <li>Graph Databases</li>
         <li><mark>Function as a service</mark></li>
@@ -569,15 +582,36 @@
   </section>
 
 	<section class="slide">
-    <img src="pictures/lambda.png" alt="" style="position: absolute; top: 150px;">
+    <img src="pictures/evolution.png" alt="">
+  </section>
+
+	<section class="slide">
+    <img src="pictures/evolution2.png" alt="">
+  </section>
+
+	<section class="slide">
+    <div>
+      <h2 style="font-size: 80px;">Lambda + API Gateway</h2>
+    </div>
   </section>
 
 	<section class="slide">
     <img src="pictures/jaws.gif" alt="" style="position: absolute; top: 0px;">
   </section>
 
+	<section class="slide">
+    <div>
+      <h2>Alternatives to AWS Lamda</h2>
+      <ul>
+        <li>http://stackhut.com (uses Kubernetes)</li>
+        <li>http://www.iron.io/worker</li>
+        <li>https://webtask.io</li>
+        <li>http://hook.io (open source)</li>
+      </ul>
+    </div>
+  </section>
+
 	<section class="slide shout" id="thankyou">
-    <img src="pictures/starburst.png" alt="" class="swag">
     <h2>Thank You!</h2>
 		<style>
 			#thankyou h2 {
@@ -598,5 +632,6 @@
 	<script src="shower/shower.min.js"></script>
 	<!-- Copyright © 2014 Yours Truly, Famous Inc. -->
 	<!-- Photos by John Carey, fiftyfootshadows.net -->
+
 </body>
 </html>

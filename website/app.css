@@ -1,0 +1,4 @@
+/* hide slide number at the bottom of each slide */
+.slide::after {
+  display:none;
+}
