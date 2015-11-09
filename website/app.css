@@ -2,3 +2,14 @@
 .slide::after {
   display:none;
 }
+
+body {
+  font-size: 1.8em;
+  /* font-weight: bold; */
+}
+
+.agenda h2, .terminology h2 {
+  margin-top: -75px;
+}
+
+
