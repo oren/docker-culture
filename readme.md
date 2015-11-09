@@ -1,6 +1,6 @@
 # Docker Crash Course
 
-Presentation at the [SoCal Node.js Meetup](http://www.meetup.com/SoCal-Node-JS/events/221022035)
+Presentation at [Full Stack Toronto](http://eventmobi.com/fstoconf15/agenda/118605/614031)
 
 [![video](website/pictures/intro.png)](https://www.youtube.com/embed/BgDhf50Ya2s)
 (Click on the image above to watch the video of the talk)
@@ -71,7 +71,7 @@ http://www.thoughtworks.com/insights/blog/demystifying-conways-law
 
     docker-compose up
 
-open [http://localhost:3000](http://localhost:3000)
+open [http://localhost](http://localhost)
 
 ## Push this presentation to Dockerhub
 
@@ -79,7 +79,7 @@ open [http://localhost:3000](http://localhost:3000)
 
 ## Deploy with Convox
 
-    bin/deploy
+    convox deploy
 
 ## TODO
 
