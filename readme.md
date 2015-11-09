@@ -83,6 +83,6 @@ open [http://localhost:3000](http://localhost:3000)
 
 ## TODO
 
-neo demo
 convox demo
+neo demo
 cayley demo
