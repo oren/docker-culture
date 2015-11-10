@@ -1,4 +1,4 @@
-# Docker and Culture - Presentation
+# Docker and a catalyst of culutre change? ...are you nuts?
 
 Presentation at [Full Stack Toronto](http://eventmobi.com/fstoconf15/agenda/118605/614031)
 
@@ -7,62 +7,44 @@ Presentation at [Full Stack Toronto](http://eventmobi.com/fstoconf15/agenda/1186
 
 ## Description
 
-Docker is everywhere but nobody knows what to do with it.
-The goal of this session is to provide you with everything you need to get started.
-
-We'll discuss and demonstrate the following:
-
-* What is Docker?
-* What does docker solve?
-* How to use it for development work flow?
-* How to use it for deployment/production work flow?
-
-Let's skip the boring concepts - we will look at a real-world Node.js application that uses multiple Docker containers.
+Docker is here to stay whether you like it or not. so embrace it.  
+In this talk I'll explain how Docker, Micro Services and Conway Law are going to change not only the way we write software but also the social structure of the entire organization.
+I'll talk about Lean, CI and CD and how they are all playing nice with their new friend, Docker.
+But I will not stop at theory. I'll dive into the code, tools and technologies that transforms our company, Sanguine BioSciences, and can help all of the attendees.
 
 ## Slides
 
-### 03:35 What is Docker?
+### 00:00 Crash course on Lean
 
-* 04:35 Demo: Running a project with 7 containers on my laptop
-* 07:56 Containers vs VMs
-* 08:33 Value for Developers
-* 08:46 Value for Ops
-* 10:14 Terminology
-* 10:37 Container Ecosystem
+### 00:00 Docker
 
-### 11:18 What does docker solve?
+* 00:00 What pain is Docker trying to solve?</mark></li>
+* 00:00 What is Docker?
+* 00:00 Docker for development workflow
+* 00:00 Docker for deployment workflow
 
-* 11:22 Strangler Application - Architecture for dealing with Legacy/Monolith
-* 12:08 Conway Law - The social structure of your organization will be reflected on your software architecture
-* 13:42 Inverse Conway Maneuver - Micro-services will force you to change your social structure
-* 14:30 Related Points: Lean, CI, CD, Immutable Infrastructure, Culture
-* 15:12 Amazon vs Google - Ownership vs Separate Ops team
+### 00:00 Graph Databases
 
-### 16:57 How to use it for development work flow?
+### 00:00 Function as a service
 
-* 17:17 Multiple Containers for running a projects and a Log Server
-* 18:20 Registration and Discovery with Consul and registrator
-* 18:50 Demo: Android/Cordova development using Docker
+## Links to Videos and Demos
 
-### 19:13 How to use it for deployment/production work flow?
-
-* 19:17 What components do you need for running Docker in Production? Scheduler, Registration, Discovery
-* 19:26 Scheduler
-* 20:05 Discovery
-* 20:17 Work flow tools: Deis, Flynn, Paz, Mesos + Marathon
-* 20:33 Continuous Deployment, Continuous Delivery, AWS setup, Deis setup on AWS
-* 21:47 Deis workflow
-* 22:55 Deis Architecture (10 Containers)
-* 23:27 Demo: Scale a Micro Service using Deis
-* 24:35 Demo: Deploy a Micro Service using Deis
-* 25:00 Angular is Dead - Micro Virtual DOM frameworks are taking over. Mithril.js is a good one.
+* Demo of Dockerizing research.sanguinebio.com - https://www.youtube.com/watch?v=dbWyiNrEsWc
+* Demo of running Gollum wiki in Docker - https://www.youtube.com/watch?v=EauxgxsLDC4
+* Demo of running Dokuwiki in Docker - https://www.youtube.com/watch?v=uX4doKQsRnQ
+* Demo of deploying an app with Deis - https://asciinema.org/a/17792
+* Demo of scaling an app with Deis - https://asciinema.org/a/17793
+* Demo of Convox - https://www.youtube.com/watch?v=5BWa6BkzCX4
+* Demo of Neo4j - https://www.youtube.com/watch?v=wVkKWODHTHQ
+* Demo of Cayley - https://www.youtube.com/watch?v=J5o2Uh1JxKw
+* JAWS framework trailer - https://vimeo.com/141176732
+* JAWS talk from re:invent - https://www.youtube.com/watch?v=D_U6luQ6I90
 
 ## References
 
 * Strangler Application:  http://martinfowler.com/bliki/StranglerApplication.html
 * Docker Ecosystem series:  https://www.digitalocean.com/community/tutorial_series/the-docker-ecosystem
-* Conway Law:
-http://www.thoughtworks.com/insights/blog/demystifying-conways-law
+* Conway Law: http://www.thoughtworks.com/insights/blog/demystifying-conways-law
 * Inverse Conway Maneuver: http://www.thoughtworks.com/radar/techniques
 * The twelve-factor app - http://12factor.net/build-release-run
 * Lean Enterprise: How High Performance Organizations Innovate at Scale - http://www.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425
@@ -73,10 +55,6 @@ http://www.thoughtworks.com/insights/blog/demystifying-conways-law
 
 open [http://localhost](http://localhost)
 
-## Push this presentation to Dockerhub
-
-    git push
-
 ## Deploy with Convox
 
-    convox deploy
+    git push
