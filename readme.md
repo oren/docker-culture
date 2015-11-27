@@ -2,7 +2,7 @@
 
 Presentation at [Full Stack Toronto](http://eventmobi.com/fstoconf15/agenda/118605/614031)
 
-[![video](website/pictures/intro.png)](https://www.youtube.com/embed/BgDhf50Ya2s)
+[![video](website/pictures/intro.png)](http://www.youtube.com/watch?v=EwSYMP33n10)
 (Click on the image above to watch the video of the talk)
 
 ## Description
